@@ -146,6 +146,23 @@ a#resume:hover {
 }
 
 
+div.arrow-container {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+}
+
+a.arrow {
+  text-align: center;
+  fill: #fff;
+}
+
+a.arrow:hover {
+  fill: #34d7e3;
+}
+
+
 
 
 footer ul{
