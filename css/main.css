@@ -36,7 +36,7 @@ a {
 
 @media screen and (max-width: 600px) {
   nav ul li {
-      display: inline-flex;
+      display: flex;
       margin-right: 5px;
 
   }
@@ -120,6 +120,13 @@ img.photo {
   div.external-container {
     display: flex;
   }
+  p.name {
+    font-size: 5.5vw;
+  }
+
+  p.major {
+    font-size: 3.25vw;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px) {
@@ -131,9 +138,16 @@ img.photo {
   div.external-container {
     display: flex;
   }
+  p.name {
+    font-size: 5.5vw;
+  }
+
+  p.major {
+    font-size: 3.25vw;
+  }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 700px) and (max-width: 800px){
   div.info {
     margin-top: 30%;
     text-align: center;
@@ -141,6 +155,30 @@ img.photo {
   div.external-container {
     text-align: center;
     display: inline-flex;
+  }
+  p.name {
+    font-size: 5.5vw;
+  }
+
+  p.major {
+    font-size: 3.25vw;
+  }
+}
+@media screen and (max-width: 700px){
+  div.info {
+    margin-top: 35%;
+    text-align: center;
+  }
+  div.external-container {
+    text-align: center;
+    display: inline-flex;
+  }
+  p.name {
+    font-size: 7vw;
+  }
+
+  p.major {
+    font-size: 5vw;
   }
 }
 
@@ -152,7 +190,6 @@ p.name {
   color: #FFF;
   margin: 0;
   padding-bottom: 10px;
-  font-size: 5.5vw;
   font-weight: bold;
 }
 
@@ -161,7 +198,6 @@ p.major {
   color: #FFF;
   margin: 0;
   padding-bottom: 20px;
-  font-size: 3.25vw;
   font-weight: bold;
 }
 
