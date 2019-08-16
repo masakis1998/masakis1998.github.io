@@ -1,26 +1,109 @@
 body {
     margin: 0px;
-    padding-top: 40px;
+    height: 100%;
 }
 
-.nav-up {
-    top: -60px;
+header {
+  min-height: 100vh;
+  background: url("../img/uiuc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-nav {
-    background: rgba(50, 50, 50, 0.9);
-    height: 60px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    transition: top 0.2s ease-in-out;
+a.external {
+  fill: #FFF;
+  margin-left: 10px;
+}
+
+a#github:hover{
+  fill: #000;
+}
+
+a#linkedin:hover{
+  fill: #53aded;
+}
+
+
+
+nav ul li a {
+  padding: 12px;
+}
+
+a.navitem {
+  border-radius: 10px;
+}
+
+a.navitem:hover {
+  background-color: rgba(50, 50, 50, .7);
+}
+
+p.name {
+  font-family: "Palatino";
+  color: #FFF;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+p.major {
+  font-family: "Palatino";
+  color: #FFF;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+div.info {
+  position: relative;
+  float: left;
+  margin-top: 13.5%;
+  margin-left: 42%;
+}
+
+.contents {
+  margin-left: 10%;
+  margin-right: 55%;
+  position: absolute;
+  bottom: 0;
+}
+
+img.photo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left;
 }
 
 .container {
+  height: 100vh;
+  background: rgba(50, 100, 200, 0.6);
+
+  width: 100%;
+}
+
+nav {
+  padding-top: 20px;
+  height: 90px;
+  text-align: center;
+  transition: 0.4s;
+  font-size: 20px;
+}
+
+nav:hover {
+
+  font-size: 30px;
+
+}
+
+
+.temp {
   height: 1000px;
 }
 
-nav, footer {
+footer ul{
   padding-left: 10%
 }
 
@@ -36,23 +119,21 @@ nav ul {
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
-    font-weight: bold;
     margin: 0px;
 }
+
 nav ul li, footer ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 footer {
