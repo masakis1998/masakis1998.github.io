@@ -3,10 +3,6 @@ body {
     height: 100%;
 }
 
-.temp {
-  height: 1000px;
-}
-
 header {
   min-height: 100vh;
   background: url("../img/uiuc.jpg");
@@ -27,14 +23,14 @@ a {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   nav ul li {
       display: inline;
       margin-right: 5px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   nav ul li {
       display: flex;
       margin-right: 5px;
@@ -52,7 +48,7 @@ nav {
   font-size: 20px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 950px) {
   nav:hover {
 
     font-size: 30px;
@@ -164,7 +160,7 @@ img.photo {
     font-size: 3.25vw;
   }
 }
-@media screen and (max-width: 700px){
+@media screen and (min-width: 550px) and (max-width: 700px){
   div.info {
     margin-top: 35%;
     text-align: center;
@@ -181,8 +177,22 @@ img.photo {
     font-size: 5vw;
   }
 }
+@media screen and (max-width: 550px){
+  div.info {
+    margin-top: 45%;
+    text-align: center;
+  }
+  div.external-container {
+    text-align: center;
+    display: inline-flex;
+  }
+  p.name {
+    font-size: 7vw;
+  }
 
-div.info {
+  p.major {
+    font-size: 5vw;
+  }
 }
 
 p.name {
@@ -252,6 +262,41 @@ a.arrow {
 a.arrow:hover {
   fill: #34d7e3;
 }
+
+
+
+div.about {
+  width: 100%;
+  border-bottom: 2px solid gray;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.about h1 {
+  position: relative;
+  color: #191919;
+  font-size: 40px;
+  font-family: "Open Sans";
+  margin-left: 250px;
+  margin-top: 50px;
+  float: left;
+}
+
+div.about div {
+  text-align: left;
+  font-family: "Frosty";
+  margin-top: 60px;
+  position: relative;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 40%;
+}
+
+
+
+
+
 
 
 
