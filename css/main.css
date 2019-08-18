@@ -375,6 +375,7 @@ div#education div.schools div.subtitle div.basic{
 div#education div.schools div.information {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 
