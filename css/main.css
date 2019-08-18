@@ -309,7 +309,7 @@ img.photo2 {
 div#about div.texts {
   text-align: left;
   margin-top: 170px;
-  margin-left: 150px;
+  margin-left: 130px;
   margin-bottom: 40px;
   width: 40%;
   position: relative;
@@ -333,6 +333,8 @@ div#education div.title-wrap {
 div.schools {
   display: flex;
   flex-direction: column;
+  width: 60%;
+  margin: auto;
 }
 
 div.schools div{
@@ -341,7 +343,6 @@ div.schools div{
 }
 
 div.schools div img {
-  width: 80px;
   height: 80px;
   border-radius: 40px;
 }
