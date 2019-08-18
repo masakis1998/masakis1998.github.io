@@ -286,7 +286,7 @@ div#about {
 }
 
 div#about div.data {
-  margin-left: 250px;
+  margin-left: 17%;
   display: grid;
 }
 
@@ -317,7 +317,7 @@ div#about div.texts {
 
 div#about div span {
   color: #333;
-  font-family: "Helvetica";
+  font-family: "Consolas";
 
   font-size: 20px;
 }
@@ -342,13 +342,20 @@ div#education div.schools {
 
 }
 
-div#education div.schools div.uiuc, div#education div.schools div.walton{
+div#education div.schools div.uiuc{
   display: flex;
+  margin-bottom: 30px;
+}
+
+div#education div.schools div.walton{
+  display: flex;
+  margin-bottom: 90px;
 }
 
 div#education div.schools div img {
   height: 80px;
   border-radius: 40px;
+  margin-right: 40px;
 }
 
 div#education div.schools div.subtitle {
@@ -356,6 +363,10 @@ div#education div.schools div.subtitle {
 }
 
 div#education div.schools div.subtitle div.stats{
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
   float: right;
   display: flex;
   flex-direction: column;
@@ -368,13 +379,28 @@ div#education div.schools div.subtitle div.stats div.years, div#education div.sc
 }
 
 div#education div.schools div.subtitle div.basic{
+  font-family: "Open Sans";
+  font-weight: bold;
   float: left;
   text-align: left;
   display: flex;
   flex-direction: column;
 }
 
+
+div#education div.schools div.subtitle div.basic div.name{
+  font-size: 22px;
+}
+
+div#education div.schools div.subtitle div.basic div.name, div#education div.schools div.subtitle div.stats div.years{
+  margin-bottom: 10px;
+}
+
+div#education div.schools div.subtitle div.basic{
+}
+
 div#education div.schools div.information {
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -382,6 +408,23 @@ div#education div.schools div.information {
 
 div#education div.detail {
   text-align: left;
+  font-family: "Consolas";
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+div#education div.detail ul{
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}
+
+div#education div.detail div.itemname{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 
@@ -407,7 +450,7 @@ h2 {
 }
 
 div#skills div span {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: 'Consolas';
   color: #333;
   font-size: 23px;
   padding: 10px;
@@ -423,7 +466,7 @@ div#skills h2 {
 
 div#skills div {
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 div#skills div.language {
