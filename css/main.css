@@ -369,6 +369,7 @@ div#education div.schools div.subtitle div.stats div.years, div#education div.sc
 
 div#education div.schools div.subtitle div.basic{
   float: left;
+  text-align: left;
   display: flex;
   flex-direction: column;
 }
@@ -378,6 +379,12 @@ div#education div.schools div.information {
   flex-direction: column;
   width: 100%;
 }
+
+div#education div.detail {
+  text-align: left;
+}
+
+
 
 
 div#experiences {
