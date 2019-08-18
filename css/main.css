@@ -326,6 +326,12 @@ div#about, div#education, div#experiences, div#projects, div#skills, div#contact
   border-bottom: 2px solid gray;
 }
 
+div#education div.wrapper {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
 div#education div.title-wrap {
   text-align: center;
 }
@@ -333,8 +339,7 @@ div#education div.title-wrap {
 div.schools {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: auto;
+
 }
 
 div.schools div{
