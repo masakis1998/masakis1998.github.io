@@ -342,7 +342,7 @@ div#education div.schools {
 
 }
 
-div#education div.schools div{
+div#education div.schools div.uiuc, div#education div.schools div.walton{
   display: flex;
 }
 
