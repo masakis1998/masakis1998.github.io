@@ -281,7 +281,6 @@ div.box:nth-of-type(2n+1) {
 div#about {
   background-color: #f7fafa;
   width: 100%;
-  border-bottom: 2px solid gray;
   display: flex;
   flex-flow: row wrap;
 }
@@ -307,21 +306,72 @@ img.photo2 {
   border-radius: 20px;
 }
 
-div#about span {
-  color: #333;
+div#about div.texts {
   text-align: left;
-  font-family: "Frosty";
-  margin-top: 150px;
-  position: relative;
+  margin-top: 170px;
   margin-left: 150px;
   margin-bottom: 40px;
-  font-size: 20px;
   width: 40%;
+  position: relative;
 }
 
-div#education, div#experiences, div#projects, div#skills, div#contact {
+div#about div span {
+  color: #333;
+  font-family: "Helvetica";
+
+  font-size: 20px;
+}
+
+div#about, div#education, div#experiences, div#projects, div#skills, div#contact {
   border-bottom: 2px solid gray;
 }
+
+div#education div.title-wrap {
+  text-align: center;
+}
+
+div.schools {
+  display: flex;
+  flex-direction: column;
+}
+
+div.schools div{
+  display: flex;
+  width: 100%;
+}
+
+div.schools div img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+div.schools div.subtitle {
+  display: flex;
+}
+
+div.schools div.subtitle div.stats{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+div.schools div.subtitle div.stats div.years, div.schools div.subtitle div.stats div.gpa {
+  display: grid;
+  text-align: right;
+}
+
+div.schools div.subtitle div.basic{
+  display: flex;
+  flex-direction: column;
+}
+
+div.schools div.information {
+  display: flex;
+  flex-direction: column;
+}
+
 
 div#experiences {
   display: flex;
