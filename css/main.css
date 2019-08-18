@@ -264,63 +264,121 @@ a.arrow:hover {
 }
 
 
+h1 {
+  color: #333;
+  font-size: 40px;
+  font-family: "Open Sans";
+  text-decoration: underline;
+  text-decoration-color: #87fff5;
+}
 
-div.about {
+div.box:nth-of-type(2n+1) {
+  background-color: #f7fafa;
+}
+
+
+
+div#about {
+  background-color: #f7fafa;
   width: 100%;
   border-bottom: 2px solid gray;
   display: flex;
   flex-flow: row wrap;
 }
 
-div.about h1 {
+div#about div.data {
+  margin-left: 250px;
+  display: grid;
+}
+
+div#about h1 {
   position: relative;
-  color: #191919;
+  color: #333;
   font-size: 40px;
   font-family: "Open Sans";
-  margin-left: 250px;
+  margin-left: 50px;
   margin-top: 50px;
   float: left;
 }
 
-div.about div {
+img.photo2 {
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+div#about span {
+  color: #333;
   text-align: left;
   font-family: "Frosty";
-  margin-top: 60px;
+  margin-top: 150px;
   position: relative;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-bottom: 40px;
   font-size: 20px;
   width: 40%;
 }
 
+div#education, div#experiences, div#projects, div#skills, div#contact {
+  border-bottom: 2px solid gray;
+}
+
+div#experiences {
+  display: flex;
+}
+
+div#skills {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #333;
+  font-size: 30px;
+  font-family: "Open Sans";
+  text-decoration: underline;
+  text-decoration-color: #87fff5;
+  margin-bottom: 0;
+}
+
+div#skills div span {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  color: #333;
+  font-size: 23px;
+  padding: 10px;
+  background-color: #a6ffcc;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+div#skills h2 {
+  margin: 0px;
+}
 
 
+div#skills div {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+div#skills div.language {
+  margin-bottom: 100px;
+}
 
 
-
-
-
-
-footer ul{
-  padding-left: 10%
+div.box:nth-of-type(2n) {
+  background-color: #FFF;
 }
 
 
 
-footer ul li {
-    display: inline;
-    margin-right: 5px;
-}
 
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+
 
 
 
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    background: #000;
+    font-size: 30px;
 }
