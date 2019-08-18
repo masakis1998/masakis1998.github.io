@@ -352,7 +352,7 @@ div#education div.schools div img {
 }
 
 div#education div.schools div.subtitle {
-  display: flex;
+  display: block;
 }
 
 div#education div.schools div.subtitle div.stats{
