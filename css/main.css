@@ -18,7 +18,7 @@ a {
 
 .container {
   height: 100vh;
-  background: rgba(50, 110, 200, 0.6);
+  background: rgba(50, 115, 200, 0.6);
 
   width: 100%;
 }
@@ -281,7 +281,6 @@ div.box:nth-of-type(2n+1) {
 div#about {
   background-color: #f7fafa;
   width: 100%;
-  display: flex;
   flex-flow: row wrap;
 }
 
@@ -308,7 +307,7 @@ img.photo2 {
 
 div#about div.texts {
   text-align: left;
-  margin-top: 170px;
+  margin-top: 150px;
   margin-left: 130px;
   margin-bottom: 40px;
   width: 40%;
@@ -324,9 +323,10 @@ div#about div span {
 
 div#about, div#education, div#experiences, div#projects, div#skills, div#contact {
   border-bottom: 2px solid gray;
+  display: flex;
 }
 
-div#education div.wrapper {
+div#education div.wrapper, div#experiences div.wrapper {
   text-align: center;
   width: 60%;
   margin: auto;
@@ -336,10 +336,9 @@ div#education div.title-wrap {
   text-align: center;
 }
 
-div#education div.schools {
+div#education div.schools, div#experiences div.workplace {
   display: flex;
   flex-direction: column;
-
 }
 
 div#education div.schools div.uiuc{
@@ -358,14 +357,14 @@ div#education div.schools div img {
   margin-right: 40px;
 }
 
-div#education div.schools div.subtitle {
+div#education div.schools div.subtitle, div#experiences div.workplace div.subtitle {
   display: block;
 }
 
-div#education div.schools div.subtitle div.stats{
+div#education div.schools div.subtitle div.stats, div#experiences div.workplace div.subtitle div.stats{
   font-family: "Open Sans";
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
   font-style: italic;
   float: right;
   display: flex;
@@ -373,12 +372,12 @@ div#education div.schools div.subtitle div.stats{
   text-align: right;
 }
 
-div#education div.schools div.subtitle div.stats div.years, div#education div.schools div.subtitle div.stats div.gpa {
+div#education div.schools div.subtitle div.stats div.years, div#education div.schools div.subtitle div.stats div.location, div#experiences div.workplace div.subtitle div.stats div.years {
   display: grid;
   text-align: right;
 }
 
-div#education div.schools div.subtitle div.basic{
+div#education div.schools div.subtitle div.basic, div#experiences div.workplace div.subtitle div.basic{
   font-family: "Open Sans";
   font-weight: bold;
   float: left;
@@ -388,33 +387,31 @@ div#education div.schools div.subtitle div.basic{
 }
 
 
-div#education div.schools div.subtitle div.basic div.name{
+div#education div.schools div.subtitle div.basic div.name, div#experiences div.workplace div.subtitle div.basic div.name{
   font-size: 22px;
 }
 
 div#education div.schools div.subtitle div.basic div.name, div#education div.schools div.subtitle div.stats div.years{
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
-div#education div.schools div.subtitle div.basic{
-}
 
-div#education div.schools div.information {
+div#education div.schools div.information, div#experiences div.workplace div.information {
   margin-top: 5px;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-div#education div.detail {
+div#education div.detail, div#experiences div.detail {
   text-align: left;
   font-family: "Consolas";
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 30px;
   font-size: 17px;
 }
 
-div#education div.detail ul{
+div#education div.detail ul {
   list-style-type: circle;
   margin: 0;
   padding: 0;
@@ -430,13 +427,52 @@ div#education div.detail div.itemname{
 
 
 
+
 div#experiences {
   display: flex;
 }
 
+div#experiences div.workplace div.katabat{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+div#experiences div.workplace div.katabat img{
+  height: 70px;
+  margin-right: 50px;
+}
+
+div#experiences div.detail ul{
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+
+div#experiences div.workplace div.subtitle div.basic div.name, div#experiences div.workplace div.subtitle div.stats div.years{
+  margin-bottom: 0px;
+}
+
+div#experiences div.detail {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+div#experiences div.workplace div.tech img{
+  height: 80px;
+  border-radius: 40px;
+  margin-right: 40px;
+}
+
+div#experiences div.workplace div.tech{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+
+
 div#skills {
   text-align: center;
-  display: flex;
   flex-direction: column;
 }
 
