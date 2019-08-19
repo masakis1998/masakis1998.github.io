@@ -482,44 +482,51 @@ div#projects div.title-wrap {
 }
 
 div#projects div.projects-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 90%;
   margin: auto;
 }
 
-div#projects div.detail {
+div#projects div.futurelist div.detail {
   float: left;
   width: 50%;
 }
 
-div#projects div.projects-container img {
+div#projects div.projects-container div.futurelist img {
   float: right;
   width: 45%;
 }
 
-div#projects div.projects-container div.name {
+div#projects div.projects-container div.futurelist div.name {
+  margin-top: 70px;
+  margin-left: 25%;
+}
+
+div#projects div.projects-container div.name a {
   font-family: "Open Sans";
   font-weight: bold;
   font-size: 35px;
   color: #444;
   text-decoration: underline;
   text-decoration-color: #87fff5;
-  margin-top: 70px;
-  margin-left: 25%;
+}
+
+div#projects div.projects-container div.futurelist div.descriptions {
+  margin-left: 30%;
 }
 
 div#projects div.projects-container div.descriptions {
   margin-top: 30px;
-  margin-left: 30%;
   font-family: "Consolas";
   font-size: 20px;
   color: #444;
   line-height: 24pt;
 }
 
-div#projects div.projects-container div.prog-list {
+div#projects div.projects-container div.futurelist div.prog-list {
   margin-top: 30px;
-  margin-left: 38%;
+  margin-left: 37%;
   font-family: "Consolas";
   font-size: 20px;
   color: #444;
@@ -532,12 +539,36 @@ div#projects div.projects-container div.prog-list {
 
 }
 
+div#projects div.projects-container div.msp div.prog-list {
+  margin-top: 30px;
+  font-family: "Consolas";
+  font-size: 20px;
+  color: #444;
+  line-height: 24pt;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  width: 80px;
+
+}
+
 div#projects div.projects-container div.prog-list span {
   border: 2px solid #87fff5;
   padding: 5px;
   margin-left: 5px;
   border-radius: 5px;
   margin-bottom: 15px;
+}
+
+div#projects div.msp {
+  margin: auto;
+  width: 40%;
+}
+
+div#projects div.msp div.detail {
+  float: none;
 }
 
 
