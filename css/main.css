@@ -425,9 +425,6 @@ div#education div.detail div.itemname{
 }
 
 
-
-
-
 div#experiences {
   display: flex;
 }
@@ -439,6 +436,7 @@ div#experiences div.workplace div.katabat{
 
 div#experiences div.workplace div.katabat img{
   height: 70px;
+  border-radius: 35px;
   margin-right: 50px;
 }
 
@@ -468,6 +466,21 @@ div#experiences div.workplace div.tech{
   display: flex;
   margin-bottom: 90px;
 }
+
+
+div#projects {
+  display: grid;
+  height: 100%;
+  text-align: center;
+}
+
+div#projects div.title-wrap {
+  text-align: center;
+}
+
+
+
+
 
 
 
