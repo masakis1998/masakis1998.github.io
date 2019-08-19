@@ -1,2 +1,2 @@
 # masakis1998.github.io
-profolio website, under construction
+Source code for my portfoilo website
