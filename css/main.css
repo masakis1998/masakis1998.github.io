@@ -270,6 +270,7 @@ h1 {
   font-family: "Open Sans";
   text-decoration: underline;
   text-decoration-color: #87fff5;
+  margin-top: 50px;
 }
 
 div.box:nth-of-type(2n+1) {
@@ -312,6 +313,10 @@ div#about div.texts {
   margin-bottom: 40px;
   width: 40%;
   position: relative;
+}
+
+div#about div.texts a{
+  color: #14a1a3;
 }
 
 div#about div span {
@@ -661,11 +666,55 @@ div.box:nth-of-type(2n) {
 
 
 
+div#contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
 
+div#contact h1 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+div#contact div.data-container {
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+div#contact div.data-container a{
+  color: #333;
+  font-size: 20px;
+  font-family: "Open Sans";
+}
+
+div#contact div.data-container div{
+  display: inline;
+}
+
+div#contact div.data-container a{
+  margin-right: 5px;
+}
+
+div#contact div.data-container a svg.phone{
+  margin-left: 20px;
+}
 
 
 
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: 30px;
+  display: flex;
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #333;
+  background: #a5fade;
+}
+
+footer div {
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
