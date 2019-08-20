@@ -493,6 +493,22 @@ div#projects div.projects-container {
   margin: auto;
 }
 
+div#projects div.projects-container a.githublink {
+  fill: #222;
+}
+
+div#projects div.projects-container a.githublink:hover {
+  fill: #666;
+}
+
+div#projects div.projects-container div.futurelist a.githublink {
+  margin-left: 25%;
+}
+
+div#projects div.projects-container div.futurelist a.githublink svg{
+  margin-top: 10px;
+}
+
 div#projects div.futurelist div.detail {
   float: left;
   width: 50%;
@@ -504,7 +520,7 @@ div#projects div.projects-container div.futurelist img {
 }
 
 div#projects div.projects-container div.futurelist div.name {
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 25%;
 }
 
@@ -555,7 +571,7 @@ div#projects div.projects-container div.msp div.prog-list {
   margin-right: auto;
 
   display: flex;
-  width: 80px;
+  width: 90px;
 
 }
 
@@ -571,7 +587,7 @@ div#projects div.msp {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 43%;
 }
 
 div#projects div.msp div.detail {
@@ -580,7 +596,7 @@ div#projects div.msp div.detail {
 
 div#projects div.mallinker  {
   width: 90%;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 70px;
 }
 
@@ -598,7 +614,7 @@ div#projects div.mallinker img {
 div#projects div.mallinker div.detail {
   float: right;
   width: 40%;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
